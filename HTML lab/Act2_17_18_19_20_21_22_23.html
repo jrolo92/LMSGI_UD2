@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<p>
+<h1>Bienvenido a la escuela deportiva de Ubrique</h1>
+</p>
+
+<form action="mailto:escueladeportivaubrique@gmail.es" method="post" enctype="text/plain">
+
+    <p>Apellidos:<input type="text" name="aapp" size="25"><br>
+        Nombre:<input type="text" name="Nombre" size="25"><br>
+        Población:<input type="text" name="Pueblo" size="20"><br>
+        Email:<input type="text" name="email" size="20"><br>
+        ¿Qué deporte quieres practicar? <select name="Vias" size="1" multiple>
+            <option>Natación</option>
+            <option>Baloncesto</option>
+            <option selected>Fútbol</option>
+            <option>Pádel</option>
+        </select></p>
+
+    <p>¿Con qué frecuencia sueles practicar deporte?<br></p>
+    <blockquote>
+        <p><input type="checkbox" name="opcion" value="on"> Menos de 3 veces a la semana<br>
+            <input type="checkbox" name="opcion" value="on" checked> 3 veces a la semana<br>
+            <input type="checkbox" name="opcion" value="on"> Mas de 3 veces a la semana
+        </p>
+    </blockquote>
+
+    <p>¿Sexo?</p>
+    <blockquote>
+        <p><input type="radio" name="sexo" value="Hombre"> Hombre<br>
+            <input type="radio" name="sexo" value="mujer"> Mujer<br>
+        </p>
+    </blockquote>
+
+    <p> Observaciones <br>
+        <textarea name="Observaciones" id="1" cols="40" rows="4"></textarea>
+    </p>
+
+    <p> Es necesario adjuntar foto del DNI<br>
+        <input type="file" name="fichero">
+    </p>
+
+    <p>&nbsp;<input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+        <input type="push" value="">
+    </p>
+</form>
+
+</html>
